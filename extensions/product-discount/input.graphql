@@ -1,0 +1,10 @@
+query Input {
+  cart {
+    lines {
+      id
+      merchandise {
+        id
+      }
+    }
+  }
+}
