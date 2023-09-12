@@ -2,7 +2,7 @@
 
 name = "app-test3"
 client_id = "9ad19c13edaaefca3b90d6120b66d7d9"
-application_url = "https://per-fight-consistently-examines.trycloudflare.com"
+application_url = "https://supposed-increasing-child-wrong.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://per-fight-consistently-examines.trycloudflare.com/auth/callback",
-  "https://per-fight-consistently-examines.trycloudflare.com/auth/shopify/callback",
-  "https://per-fight-consistently-examines.trycloudflare.com/api/auth/callback"
+  "https://supposed-increasing-child-wrong.trycloudflare.com/auth/callback",
+  "https://supposed-increasing-child-wrong.trycloudflare.com/auth/shopify/callback",
+  "https://supposed-increasing-child-wrong.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

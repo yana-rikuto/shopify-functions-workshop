@@ -1,10 +1,17 @@
 query Input {
   cart {
     lines {
-      id
+      quantity
       merchandise {
-        id
+        ... on ProductVariant {
+          id
+        }
       }
+    }
+  }
+  discountNode {
+    metafield(namespace: "FUNCTION_APP", key: "volume-config") {
+      value
     }
   }
 }
